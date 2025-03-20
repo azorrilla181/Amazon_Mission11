@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "UGVXWFLL01AeQ7HmNyv3CR73/wHB41NT6ZbEBrvxzvc=",
+  "Source": "AmazonMission11.API",
+  "BasePath": "_content/AmazonMission11.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
