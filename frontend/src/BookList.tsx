@@ -21,7 +21,7 @@ function BookList() {
           <h3>{b.title}</h3>
           <ul>
             <li>Book Author: {b.author}</li>
-            <li>Published: {b.publisher}</li>
+            <li>Publisher: {b.publisher}</li>
             <li>ISBN: {b.isbn}</li>
             <li>Classification: {b.classification}</li>
             <li>Category: {b.category}</li>
