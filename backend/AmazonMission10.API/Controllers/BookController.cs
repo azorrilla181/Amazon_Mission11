@@ -12,14 +12,29 @@ namespace AmazonMission11.API.Controllers
         public BookController(BookDbContext temp) => _bookContext = temp;
 
         [HttpGet("AllBooks")]
-        public IEnumerable<Book> GetBooks()
+        public IActionResult GetBooks(int pageSize = 10, int pageNum = 1)
         {
-            return _bookContext.Books.ToList();
+             var something = _bookContext.Books
+                .Skip((pageNum-1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            var totalNumBooks = _bookContext.Books.Count();
+
+            var someObject = new
+            {
+                Books = something,
+                TotalNumBooks = totalNumBooks
+            };
+
+            return Ok(someObject);
         }
+
         [HttpGet("FictionalBooks")]
         public IEnumerable<Book> GetFictionalBooks()
         {
             return _bookContext.Books.Where(b => b.Classification == "Fiction").ToList();
         }
-    }        
+    }
 }
+
