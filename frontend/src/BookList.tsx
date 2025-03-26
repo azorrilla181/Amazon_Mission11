@@ -14,11 +14,11 @@ function BookList() {
       );
       const data = await response.json();
       setBooks(data.books);
-      setTotalItems(data.totalNumPages);
+      setTotalItems(data.totalNumBooks);
       setTotalPages(Math.ceil(totalItems / pageSize));
     };
     fetchBooks();
-  }, [pageSize]);
+  }, [pageSize, pageNum, totalItems]);
 
   return (
     <>

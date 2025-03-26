@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "backend\\AmazonMission10.API\\Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\AEZC2\\OneDrive\\Escritorio\\AmazonMission11\\backend\\AmazonMission10.API\\Controllers\\BookController.cs",
               "RelativeToolTip": "backend\\AmazonMission10.API\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T03:54:55.647Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "backend\\AmazonMission10.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T21:53:48.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T21:53:48.955Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "backend\\AmazonMission10.API\\Data\\BookDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T03:43:48.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T03:43:48.924Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "backend\\AmazonMission10.API\\Data\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T03:34:10.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T03:34:10.334Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "backend\\AmazonMission10.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T03:32:33.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T03:32:33.331Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "backend\\AmazonMission10.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T01:16:12.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T01:16:12.305Z"
             }
           ]
         }
