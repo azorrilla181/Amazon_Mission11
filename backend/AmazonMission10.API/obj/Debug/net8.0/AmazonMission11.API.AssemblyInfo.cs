@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmazonMission11.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e07bcd6b372bcd6796c424c2154e0036d2c62a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e9fd77c87cefcb2e9344e402a7104cb5a9fa744")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmazonMission11.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmazonMission11.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

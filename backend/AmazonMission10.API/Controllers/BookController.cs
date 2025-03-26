@@ -12,10 +12,17 @@ namespace AmazonMission11.API.Controllers
         public BookController(BookDbContext temp) => _bookContext = temp;
 
         [HttpGet("AllBooks")]
-        public IActionResult GetBooks(int pageSize = 10, int pageNum = 1)
+        public IActionResult GetBooks(int pageSize = 10, int pageNum = 1, string sortOrder = "asc")
         {
-             var something = _bookContext.Books
-                .Skip((pageNum-1) * pageSize)
+
+            var bookOrder = _bookContext.Books.AsQueryable();
+
+            bookOrder = sortOrder == "desc"
+                ? bookOrder.OrderByDescending(b => b.Title)
+                : bookOrder.OrderBy(b => b.Title);
+
+            var pagedBooks = bookOrder
+                .Skip((pageNum - 1) * pageSize)
                 .Take(pageSize)
                 .ToList();
 
@@ -23,8 +30,9 @@ namespace AmazonMission11.API.Controllers
 
             var someObject = new
             {
-                Books = something,
-                TotalNumBooks = totalNumBooks
+                Books = pagedBooks,
+                TotalNumBooks = totalNumBooks,
+                SortOrder = sortOrder
             };
 
             return Ok(someObject);

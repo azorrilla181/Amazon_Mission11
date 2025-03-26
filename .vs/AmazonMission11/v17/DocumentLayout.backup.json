@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|solutionrelative:backend\\amazonmission10.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|c:\\users\\aezc2\\onedrive\\escritorio\\amazonmission11\\backend\\amazonmission10.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|solutionrelative:backend\\amazonmission10.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|c:\\users\\aezc2\\onedrive\\escritorio\\amazonmission11\\backend\\amazonmission10.api\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|solutionrelative:backend\\amazonmission10.api\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|c:\\users\\aezc2\\onedrive\\escritorio\\amazonmission11\\backend\\amazonmission10.api\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|solutionrelative:backend\\amazonmission10.api\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|c:\\users\\aezc2\\onedrive\\escritorio\\amazonmission11\\backend\\amazonmission10.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|c:\\users\\aezc2\\onedrive\\escritorio\\amazonmission11\\backend\\amazonmission10.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|solutionrelative:backend\\amazonmission10.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|c:\\users\\aezc2\\onedrive\\escritorio\\amazonmission11\\backend\\amazonmission10.api\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|solutionrelative:backend\\amazonmission10.api\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|c:\\users\\aezc2\\onedrive\\escritorio\\amazonmission11\\backend\\amazonmission10.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{21B76AB4-1D37-44B0-AB29-C3D6C6246F90}|backend\\AmazonMission10.API\\AmazonMission11.API.csproj|solutionrelative:backend\\amazonmission10.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,6 +49,10 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BookController.cs",
@@ -56,14 +60,14 @@
               "RelativeDocumentMoniker": "backend\\AmazonMission10.API\\Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\AEZC2\\OneDrive\\Escritorio\\AmazonMission11\\backend\\AmazonMission10.API\\Controllers\\BookController.cs",
               "RelativeToolTip": "backend\\AmazonMission10.API\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T03:54:55.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\AEZC2\\OneDrive\\Escritorio\\AmazonMission11\\backend\\AmazonMission10.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "backend\\AmazonMission10.API\\Properties\\launchSettings.json",
@@ -71,11 +75,12 @@
               "RelativeToolTip": "backend\\AmazonMission10.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T21:53:48.955Z"
+              "WhenOpened": "2025-03-20T21:53:48.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BookDbContext.cs",
               "DocumentMoniker": "C:\\Users\\AEZC2\\OneDrive\\Escritorio\\AmazonMission11\\backend\\AmazonMission10.API\\Data\\BookDbContext.cs",
               "RelativeDocumentMoniker": "backend\\AmazonMission10.API\\Data\\BookDbContext.cs",
@@ -83,11 +88,12 @@
               "RelativeToolTip": "backend\\AmazonMission10.API\\Data\\BookDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T03:43:48.924Z"
+              "WhenOpened": "2025-03-20T03:43:48.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\AEZC2\\OneDrive\\Escritorio\\AmazonMission11\\backend\\AmazonMission10.API\\Data\\Book.cs",
               "RelativeDocumentMoniker": "backend\\AmazonMission10.API\\Data\\Book.cs",
@@ -95,11 +101,12 @@
               "RelativeToolTip": "backend\\AmazonMission10.API\\Data\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T03:34:10.334Z"
+              "WhenOpened": "2025-03-20T03:34:10.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\AEZC2\\OneDrive\\Escritorio\\AmazonMission11\\backend\\AmazonMission10.API\\appsettings.json",
               "RelativeDocumentMoniker": "backend\\AmazonMission10.API\\appsettings.json",
@@ -111,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AEZC2\\OneDrive\\Escritorio\\AmazonMission11\\backend\\AmazonMission10.API\\Program.cs",
               "RelativeDocumentMoniker": "backend\\AmazonMission10.API\\Program.cs",
@@ -120,10 +127,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T01:16:12.305Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
