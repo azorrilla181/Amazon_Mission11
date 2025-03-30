@@ -12,21 +12,31 @@ namespace AmazonMission11.API.Controllers
         public BookController(BookDbContext temp) => _bookContext = temp;
 
         [HttpGet("AllBooks")]
-        public IActionResult GetBooks(int pageSize = 10, int pageNum = 1, string sortOrder = "asc")
+        public IActionResult GetBooks(int pageSize = 10, int pageNum = 1, string sortOrder = "asc", [FromQuery] List<string>? bookCategories = null)
         {
+            var query = _bookContext.Books.AsQueryable();
 
-            var bookOrder = _bookContext.Books.AsQueryable();
+            if (bookCategories != null && bookCategories.Any())
+            {
+                query = query.Where(b => bookCategories.Contains(b.Category));
+            }
+
+            var totalNumBooks = query.Count();
+
+            //use the filtered query as the base for ordering
+            var bookOrder = query;
 
             bookOrder = sortOrder == "desc"
                 ? bookOrder.OrderByDescending(b => b.Title)
                 : bookOrder.OrderBy(b => b.Title);
 
+            //paging
             var pagedBooks = bookOrder
                 .Skip((pageNum - 1) * pageSize)
                 .Take(pageSize)
                 .ToList();
 
-            var totalNumBooks = _bookContext.Books.Count();
+
 
             var someObject = new
             {
@@ -38,11 +48,17 @@ namespace AmazonMission11.API.Controllers
             return Ok(someObject);
         }
 
-        [HttpGet("FictionalBooks")]
-        public IEnumerable<Book> GetFictionalBooks()
+        [HttpGet("GetBookCategories")]
+        public IActionResult GetBookCategories()
         {
-            return _bookContext.Books.Where(b => b.Classification == "Fiction").ToList();
+            var bookTypes = _bookContext.Books
+                .Select(b => b.Category)
+                .Distinct()
+                .ToList();
+
+            return Ok(bookTypes);
         }
+  
     }
 }
 
