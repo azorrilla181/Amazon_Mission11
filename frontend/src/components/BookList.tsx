@@ -138,7 +138,8 @@
 // export default BookList;
 
 import { useEffect, useState } from 'react';
-import { Book } from './types/Book';
+import { Book } from '../types/Book';
+import { useNavigate } from 'react-router-dom';
 function BookList({ selectedCategories }: { selectedCategories: string[] }) {
   const [books, setBooks] = useState<Book[]>([]);
   const [pageSize, setPageSize] = useState<number>(10);
@@ -146,7 +147,7 @@ function BookList({ selectedCategories }: { selectedCategories: string[] }) {
   const [totalItems, setTotalItems] = useState<number>(0);
   const [totalPages, setTotalPages] = useState<number>(0);
   const [sortOrder, setSortOrder] = useState<string>('asc');
-
+  const navigate = useNavigate();
   useEffect(() => {
     const fetchBooks = async () => {
       const categoryParams = selectedCategories
@@ -233,6 +234,12 @@ function BookList({ selectedCategories }: { selectedCategories: string[] }) {
                 <span className="badge bg-info">${b.price}</span>
               </li>
             </ul>
+            <button
+              className="btn btn-success"
+              onClick={() => navigate(`/buy-now/${b.title}/${b.bookID}/${b.price}`)}
+            >
+              Buy Now
+            </button>
           </div>
         </div>
       ))}
