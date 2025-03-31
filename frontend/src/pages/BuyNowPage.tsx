@@ -29,20 +29,9 @@ function BuyNowPage() {
         <p>
           <strong>Price:</strong> ${bookPrice}
         </p>
-        {/* <button onClick={() => navigate('/cart', { state: { bookTitle, bookPrice } })}>
-          Add to Cart
-        </button> */}
+    
         <button onClick={handleAddToCart}>Add to Cart</button>
       </div>
-      {/* <div>
-        <input 
-            type="number" 
-            placeholder="Enter amount" 
-            value={bookPrice} 
-            onChange={(x) => setBookPrice(Number(x.target.value))}
-        />
-        <button onClick={handleAddToCart}>Add to Cart</button>
-      </div> */}
 
       <button onClick={() => navigate(-1)}>Go Back</button>
     </>

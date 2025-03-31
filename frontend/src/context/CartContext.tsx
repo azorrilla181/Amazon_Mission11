@@ -18,7 +18,9 @@ export const CartProvider = ({ children}: {children: ReactNode}) => {
         setCart((prevCart) => {
             const existingItem = prevCart.find((c) => c.bookID === item.bookID);
             const updatedCart = prevCart.map((c) => 
-                c.bookID === item.bookID ? {...c, bookPrice: c.bookPrice + item.bookPrice} : c
+                c.bookID === item.bookID 
+                    ? {...c, bookPrice: c.bookPrice + item.bookPrice} 
+                    : c
         );
 
         return existingItem ? updatedCart : [...prevCart, item];
@@ -33,7 +35,8 @@ export const CartProvider = ({ children}: {children: ReactNode}) => {
     };
 
     return (
-        <CartContext.Provider value={{cart, addtoCart, removeFromCart, clearCart }}>
+        <CartContext.Provider 
+            value={{cart, addtoCart, removeFromCart, clearCart }}>
             {children}
         </CartContext.Provider>
     );
