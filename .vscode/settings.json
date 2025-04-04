@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/dfe79cbc-97b9-4ca2-bc84-fb58ef0dcdd1/resourceGroups/appsvc_windows_eastus/providers/Microsoft.Web/sites/BookStore-Aaron-Backend",
+  "appService.deploySubpath": "backend\\AmazonMission10.API\\publish"
+}

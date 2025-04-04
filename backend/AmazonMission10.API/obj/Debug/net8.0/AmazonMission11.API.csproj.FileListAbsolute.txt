@@ -69,4 +69,4 @@ C:\Users\AEZC2\OneDrive\Escritorio\AmazonMission11\backend\AmazonMission10.API\b
 C:\Users\AEZC2\OneDrive\Escritorio\AmazonMission11\backend\AmazonMission10.API\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\AEZC2\OneDrive\Escritorio\AmazonMission11\backend\AmazonMission10.API\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\AEZC2\OneDrive\Escritorio\AmazonMission11\backend\AmazonMission10.API\obj\Debug\net8.0\AmazonMission11.API.sourcelink.json
-C:\Users\AEZC2\OneDrive\Escritorio\AmazonMission11\backend\AmazonMission10.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\AEZC2\OneDrive\Escritorio\AmazonMission11\backend\AmazonMission10.API\bin\Debug\net8.0\Bookstore.sqlite
