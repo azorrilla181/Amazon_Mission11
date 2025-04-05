@@ -20,7 +20,7 @@ function App() {
               path="/buy-now/:bookTitle/:bookID/:bookPrice" 
               element={<BuyNowPage />} />
             <Route path="/cart" element={<CartPage />} />
-            <Route path="adminbooks" element={<AdminBooksPage />} />
+            <Route path="/adminbooks" element={<AdminBooksPage />} />
           </Routes>
         </Router>
       </CartProvider>
